@@ -28,9 +28,10 @@ issues of each type.
  - [ ] __Test against latest release__: Make sure you test against the latest
    released version. It is possible we already fixed the bug you're experiencing.
 
- - [ ] __Search for possible duplicate requests__: It's helpful to keep issues
-   consolidated to one thread, so do a quick search on existing issues to check
-   if anybody else has reported the same thing.
+ - [ ] __Search for possible duplicate reports__: It's helpful to keep bug
+   reports consolidated to one thread, so do a quick search on existing bug
+   reports to check if anybody else has reported the same thing. You can scope
+   searches by the label "bug" to help narrow things down.
 
  - [ ] __Include steps to reproduce__: Provide steps to reproduce the issue,
    along with your `.tf` files, with secrets removed, so we can try to
@@ -42,9 +43,10 @@ issues of each type.
 
 #### Feature Requests
 
- - [ ] __Search for possible duplicate issues__: It's helpful to keep issues
-   consolidated to one thread, so do a quick search on existing issues to check
-   if anybody else has reported the same thing.
+ - [ ] __Search for possible duplicate requests__: It's helpful to keep requests
+   consolidated to one thread, so do a quick search on existing requests to
+   check if anybody else has reported the same thing. You can scope searches by
+   the label "enhancement" to help narrow things down.
 
  - [ ] __Include a use case description__: In addition to describing the
    behavior of the feature you'd like to see added, it's helpful to also lay
