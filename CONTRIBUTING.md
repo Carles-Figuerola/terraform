@@ -11,6 +11,10 @@ best way to contribute to the project, read on. This document will cover
 what we're looking for. By addressing all the points we're looking for,
 it raises the chances we can quickly merge or address your contributions.
 
+Specifically, we have provided checklists below for each type of issue and pull
+request that can happen on the project. These checklists represent everything
+we need to be able to review and respond quickly.
+
 ## Issues
 
 ### Issue Reporting Checklists
@@ -24,7 +28,7 @@ issues of each type.
  - [ ] __Test against latest release__: Make sure you test against the latest
    released version. It is possible we already fixed the bug you're experiencing.
 
- - [ ] __Search for possible duplicate issues__: It's helpful to keep issues
+ - [ ] __Search for possible duplicate requests: It's helpful to keep issues
    consolidated to one thread, so do a quick search on existing issues to check
    if anybody else has reported the same thing.
 
@@ -78,6 +82,13 @@ issues of each type.
 
 Thank you for contributing! Here you'll find information on what to include in
 your Pull Request to ensure it is accepted quickly.
+
+ * For pull requests that follow the guidelines, we expect to be able to review
+   and merge very quickly.
+ * Pull requests that don't follow the guidelines will be annotated with what
+   they're missing. A community or core team member may be able to swing around
+   and help finish up the work, but these PRs will generally hang out much
+   longer until they can be completed and merged.
 
 ### Pull Request Lifecycle
 
@@ -238,16 +249,6 @@ get feedback early and often on the effort.
 
 Terraform includes an acceptance test harness that does most of the repetitive
 work involved in testing a resource.
-
-#### Anatomy of an Acceptance Test
-
-An acceptance test exercises a resource by applying Terraform configuration and
-following up with direct API calls to assert that everything worked properly.
-
-```go
-func TestAccMyProviderMyResource_basic(t *testing.T) {
-}
-```
 
 #### Acceptance Tests Often Cost Money to Run
 
