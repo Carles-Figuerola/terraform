@@ -28,7 +28,7 @@ issues of each type.
  - [ ] __Test against latest release__: Make sure you test against the latest
    released version. It is possible we already fixed the bug you're experiencing.
 
- - [ ] __Search for possible duplicate requests: It's helpful to keep issues
+ - [ ] __Search for possible duplicate requests__: It's helpful to keep issues
    consolidated to one thread, so do a quick search on existing issues to check
    if anybody else has reported the same thing.
 
@@ -65,7 +65,10 @@ issues of each type.
 1. The issue is reported.
 
 2. The issue is verified and categorized by a Terraform collaborator.
-   Categorization is done via tags. For example, bugs are marked as "bugs".
+   Categorization is done via GitHub labels. We generally use a two-label
+   system of (1) issue/PR type, and (2) section of the codebase. Type is
+   usually "bug", "enhancement", or "question", and section can be any of the
+   providers or provisioners or "core".
 
 3. Unless it is critical, the issue is left for a period of time (sometimes
    many weeks), giving outside contributors a chance to address the issue.
